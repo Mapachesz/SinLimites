@@ -1,0 +1,51 @@
+.Inicio {
+    width: 100%;
+    height: 800px;
+    padding-top: 15%;
+    color: white;
+    background-color: #536dfe;
+
+}
+
+.Nosotros {
+    width: 100%;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.Profesionales {
+    background-color: #e8eaf6;
+    width: 100%;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.Problema {
+    margin: 0;
+}
+
+.main-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Merriweather', serif;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}

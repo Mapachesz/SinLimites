@@ -1,0 +1,23 @@
+.navbar-colored {
+    background-color: #536dfe;
+    transition: background-color 0.35s ease;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.15);
+}
+
+.navbar {
+    background-color: #536dfe;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.mi-navbar .navbar-nav>.nav-item>.nav-link {
+    padding-top: 1rem;
+    /* Aumenta el espacio en la parte superior */
+    padding-bottom: 1rem;
+    font-size: 1.50rem;
+    /* Aumenta el espacio en la parte inferior */
+}
+
+.nav-link {
+    color: white !important;
+}
