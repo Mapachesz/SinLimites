@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Asegúrate de importar Bootstrap CSS
 import "./Footer.css";
-const Footer = () => {
+function Footer() {
   return (
     <footer className="footer">
       <div className="container-fluid text-center">
