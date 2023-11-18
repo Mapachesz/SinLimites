@@ -15,9 +15,7 @@ function App() {
       <div className="container-fluid">
         <div className="row">
           <div id="inicio" className="col-12 Inicio">
-            <div className="main-container">
-              <Home></Home>
-            </div>
+            <Home></Home>
           </div>
         </div>
         <div className="row">
