@@ -6,7 +6,6 @@ import Profesionales from "./components/Profesionales";
 import Home from "./components/Home";
 import Galeria from "./components/Galeria";
 import Footer from "./components/Footer";
-import Contacto from "./components/Contacto";
 
 function App() {
   return (
