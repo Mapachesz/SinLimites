@@ -40,13 +40,6 @@ function App() {
           </div>
         </div>
         <div className="row">
-          <div id="Contacto" className="col-12 Contacto">
-            <div className="main-container">
-              <Contacto></Contacto>
-            </div>
-          </div>
-        </div>
-        <div className="row">
           <div id="Footer" className="col-12 Footer">
             <Footer></Footer>
           </div>

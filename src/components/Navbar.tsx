@@ -3,6 +3,7 @@ import "./Styles.css";
 
 
 
+
 function Navbar() {
   useEffect(() => {
     // Define la función handleScroll dentro de useEffect para que se cree
