@@ -26,3 +26,15 @@
     margin-top: 0;
     margin-bottom: 20px; 
   }
+  .footer-wrapper {
+    border: 2px solid #ccc; /* Cambia el color y el grosor del marco según tus preferencias */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    width: 100%;
+  }
+  

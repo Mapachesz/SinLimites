@@ -6,7 +6,6 @@ import Profesionales from "./components/Profesionales";
 import Home from "./components/Home";
 import Galeria from "./components/Galeria";
 import Footer from "./components/Footer";
-import Contacto from "./components/Contacto";
 
 function App() {
   return (
@@ -39,13 +38,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div id="Contacto" className="col-12 Contacto">
-            <div className="main-container">
-              <Contacto></Contacto>
-            </div>
-          </div>
-        </div>
+
         <div className="row">
           <div id="Footer" className="col-12 Footer">
             <Footer></Footer>
