@@ -1,15 +1,22 @@
+import React from "react";
 import Navbar from "./components/Navbar";
-import ExampleComp from "./components/ExampleComp";
-import "./styles.css";
 import Nosotros from "./components/Nostros";
 import Profesionales from "./components/Profesionales";
 import Home from "./components/Home";
 import Galeria from "./components/Galeria";
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsappButtom";
+import "./styles.css";
+import Galeria2 from "./components/Galeria2";
 
 function App() {
   return (
     <>
+      <div className="whatsapp-container">
+        {/* Add WhatsAppButton at the bottom right corner */}
+        <WhatsAppButton />
+      </div>
+
       <Navbar />
       <div className="container-fluid">
         <div className="row">
@@ -35,6 +42,13 @@ function App() {
           <div id="galeria" className="col-12 Galeria">
             <div className="main-container">
               <Galeria></Galeria>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div id="galeria" className="col-12 Galeria">
+            <div className="main-container">
+              <Galeria2></Galeria2>
             </div>
           </div>
         </div>
