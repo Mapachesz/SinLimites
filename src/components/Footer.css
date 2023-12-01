@@ -2,39 +2,3 @@
     background-color: #e8eaf6; 
  
   }
-  
-  .footer-nav {
-    padding-bottom: 1rem; 
-  }
-  
-  .footer-link {
-    margin: 0 10px; 
-    color: #000; 
-    text-decoration: none; 
-  }
-  
-  .footer-link:hover {
-    text-decoration: underline; 
-  }
-  
-  .footer-copy {
-    font-size: 0.9rem; 
-    color: #6c757d; 
-  }
-  
-  hr {
-    margin-top: 0;
-    margin-bottom: 20px; 
-  }
-  .footer-wrapper {
-    border: 2px solid #ccc; /* Cambia el color y el grosor del marco según tus preferencias */
-    border-radius: 10px; /* Agrega esquinas redondeadas */
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footer-content {
-    width: 100%;
-  }
-  
