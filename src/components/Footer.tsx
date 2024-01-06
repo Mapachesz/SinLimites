@@ -1,6 +1,8 @@
 import React from "react";
 import instagram from "../img/logoinstagram.png";
 import facebook from "../img/facebook.png";
+import logopng from "../img/logopng.png";
+
 const Footer: React.FC = () => {
   return (
     <div className="app-footer w-100 footer-builder mt-4">
@@ -32,7 +34,6 @@ const Footer: React.FC = () => {
               </div>
               <div className="col-lg-3 col-md-6 mb-4 mb-lg-0  footer-links">
                 <h4 className="mb-2">Contáctanos</h4>
-                {/* Puedes dejar este espacio vacío si no necesitas contenido aquí */}
                 <span>+56974238231</span>
                 <span> fundacionsinlimites2022@gmail.com</span>
               </div>
@@ -78,6 +79,14 @@ const Footer: React.FC = () => {
               className="text-center border-top pt-4 pb-0 mt-2"
               style={{ borderColor: "rgba(255, 255, 255, 0.2)" }}
             >
+              <img
+                src={logopng}
+                alt="Logo"
+                style={{
+                  width: "50px",
+                  marginBottom: "10px",
+                }}
+              />
               All rights reserved.
             </div>
           </div>

@@ -1,30 +1,29 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import "./Styles.css";
-
-
-
+import logopng from "../img/logopng.png";
 
 function Navbar() {
   useEffect(() => {
     // Define la función handleScroll dentro de useEffect para que se cree
     // cada vez que el componente se monta y se asegura que tenga la referencia más reciente del navbar.
     const handleScroll = () => {
-      const navbar = document.querySelector('.navbar'); // Selecciona tu navbar
-      if (navbar) { // Comprobación para asegurarse de que navbar no es null
+      const navbar = document.querySelector(".navbar"); // Selecciona tu navbar
+      if (navbar) {
+        // Comprobación para asegurarse de que navbar no es null
         if (window.scrollY > 50) {
-          navbar.classList.add('navbar-colored');
+          navbar.classList.add("navbar-colored");
         } else {
-          navbar.classList.remove('navbar-colored');
+          navbar.classList.remove("navbar-colored");
         }
       }
     };
 
     // Añade el event listener para el scroll
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Limpieza del event listener al desmontar el componente
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []); // Los corchetes vacíos aseguran que este efecto solo se ejecute una vez.
 

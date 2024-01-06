@@ -22,3 +22,22 @@
 .nav-link {
     color: white !important;
 }
+/* Agrega estilos para el logo en el navbar */
+.logo-img {
+    width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: 10px; /* Espacio entre el logo y el texto "Sin limites" */
+  }
+  
+  /* Agrega estilos para el logo en modo responsive */
+  .logo-img-responsive {
+    display: none; /* Oculta el logo por defecto */
+  }
+  
+  @media (max-width: 768px) {
+    .logo-img-responsive {
+      display: block; /* Muestra el logo en modo responsive */
+      width: 50px; /* Ajusta el tamaño del logo en modo responsive */
+      margin-top: 10px; /* Ajusta el espacio superior del logo en modo responsive */
+    }
+  }
+  
