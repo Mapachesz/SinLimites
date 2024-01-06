@@ -63,7 +63,12 @@ function Navbar() {
           </li>
           <li className="nav-item me-5">
             <a className="nav-link" href="#galeria">
-              Galeria
+              Instalaciones
+            </a>
+          </li>
+          <li className="nav-item me-5">
+            <a className="nav-link" href="#comollegar">
+              Como llegar
             </a>
           </li>
         </ul>

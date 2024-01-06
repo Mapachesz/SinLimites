@@ -48,7 +48,7 @@ function Galeria() {
     <>
       <div className="row">
         <div className="col-12 col-sm-12 text-center mt-5 mb-5">
-          <h1 style={h1Us} className="h1" >INSTALACIONES</h1>
+          <h1 style={h1Us} className="h1" >INSTALACIONES EXTERIORES</h1>
         </div>
       </div>
       <div className="container mb-5">

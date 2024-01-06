@@ -38,7 +38,7 @@ function Galeria() {
       <div className="row">
         <div className="col-12 col-sm-12 text-center mt-5 mb-5">
           <h1 style={h1Us} className="h1">
-            INSTALACIONES
+            INSTALACIONES INTERIORES
           </h1>
         </div>
       </div>
@@ -69,7 +69,6 @@ function Galeria() {
         <Modal
           show={showModal}
           onHide={() => setShowModal(false)}
-          size="xl"
           centered
         >
           <Modal.Header closeButton>

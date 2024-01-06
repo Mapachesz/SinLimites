@@ -9,7 +9,7 @@ const WhatsAppButton = () => {
   const openWhatsApp = () => {
     // Aquí puedes agregar la lógica para abrir WhatsApp
     // Por ejemplo, abrir un enlace con el número de teléfono
-    window.open("https://wa.me/TU_NUMERO_DE_TELEFONO", "_blank");
+    window.open("https://wa.me/+56974238231", "_blank");
   };
 
   return (
@@ -20,9 +20,9 @@ const WhatsAppButton = () => {
         right: "20px",
         backgroundColor: "#25d366", // Puedes cambiar el color según tus preferencias
         padding: "10px",
-        borderRadius: "50%",
+        borderRadius: "10%",
         cursor: "pointer",
-        fontSize: "60px", // Ajusta el tamaño del ícono aquí
+        fontSize: "300%", // Ajusta el tamaño del ícono aquí
         lineHeight: "0", // Asegura una alineación vertical precisa
       }}
       onClick={openWhatsApp}

@@ -1,12 +1,9 @@
 .Inicio {
-    width: 100%;
+    width: 100vw;
     height: 80vh;
-    padding-top: 13%;
-    padding-bottom: 12%;
     color: white;
-    background-color:
-        #536dfe;
-
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .Nosotros {
@@ -72,12 +69,22 @@
     padding-right: 20%;
 
 }
+
 .WhatsAppButton {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #25d366; /* Puedes ajustar el color según tus preferencias */
+    background-color: #25d366;
+    /* Puedes ajustar el color según tus preferencias */
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
-  }
+}
+
+.Galeria2 {
+    background-color: #e8eaf6;
+    width: 100%;
+    height: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}

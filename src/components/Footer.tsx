@@ -3,7 +3,7 @@ import instagram from "../img/logoinstagram.png";
 import facebook from "../img/facebook.png";
 const Footer: React.FC = () => {
   return (
-    <div className="app-footer w-100 footer-builder">
+    <div className="app-footer w-100 footer-builder mt-4">
       <footer
         id="footer"
         style={{
@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               <div className="col-lg-3 col-md-6 mb-4 mb-lg-0  footer-links">
                 <h4 className="mb-2">Contáctanos</h4>
                 {/* Puedes dejar este espacio vacío si no necesitas contenido aquí */}
-                <span>+1234567890</span>
+                <span>+56974238231</span>
                 <span> fundacionsinlimites2022@gmail.com</span>
               </div>
               <div className="col-lg-4 col-md-6 footer-newsletter">

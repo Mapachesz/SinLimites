@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsappButtom";
 import "./styles.css";
 import Galeria2 from "./components/Galeria2";
+import Comollegar from "./components/Comollegar";
 
 function App() {
   return (
@@ -26,30 +27,34 @@ function App() {
         </div>
         <div className="row">
           <div id="nosotros" className="col-12 Nosotros">
-            <div className="main-container">
-              <Nosotros></Nosotros>
-            </div>
+            <Nosotros></Nosotros>
           </div>
         </div>
         <div className="row">
           <div id="profesionales" className="col-12 Profesionales">
-            <div className="main-container">
-              <Profesionales></Profesionales>
-            </div>
+
+            <Profesionales></Profesionales>
+
           </div>
         </div>
         <div className="row">
           <div id="galeria" className="col-12 Galeria">
-            <div className="main-container">
-              <Galeria></Galeria>
-            </div>
+
+            <Galeria></Galeria>
+
           </div>
         </div>
         <div className="row">
-          <div id="galeria" className="col-12 Galeria">
-            <div className="main-container">
-              <Galeria2></Galeria2>
-            </div>
+          <div id="galeria2" className="col-12 Galeria2">
+
+            <Galeria2></Galeria2>
+
+          </div>
+        </div>
+
+        <div className="row">
+          <div id="comollegar" className="col-12 Comollegar">
+            <Comollegar></Comollegar>
           </div>
         </div>
 

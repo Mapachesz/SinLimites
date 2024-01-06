@@ -1,13 +1,11 @@
 .navbar-colored {
     background-color:
-        #536dfe;
+        #232843;
     transition: background-color 0.35s ease;
     box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.15);
 }
 
 .navbar {
-    background-color:
-        #536dfe;
     padding-top: 5%;
     padding-bottom: 5%;
     font-family: 'Roboto', sans-serif;

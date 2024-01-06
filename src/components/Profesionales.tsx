@@ -1,5 +1,6 @@
 import JessiferImage from "../img/Jessifer_Profesional.jpg";
 import MariaImage from "../img/Maria_Profeisonal.jpg";
+import RicardoImage from "../img/Ricardo_Profesional.jpg"
 import { CSSProperties } from "react";
 
 function Profesionales() {
@@ -22,14 +23,14 @@ function Profesionales() {
         </h1>
       </div>
       <div className="row">
-        <div className="col-12 col-sm-3 text-center ">
-          <img
-            src={JessiferImage}
-            width={"70%"}
-            className="rounded-circle mt-3 mb-3"
-          ></img>
-        </div>
-        <div className="col-12 col-sm-3 ">
+        <div className="col-12 col-sm-6 ml-sm-1">
+          <div className="text-center">
+            <img
+              src={JessiferImage}
+              width={"45%"}
+              className="rounded-circle mt-3 mb-3 "
+            ></img>
+          </div>
           <h2 style={h1Us} className="h2 mb-3 mb-sm-3 mt-4 mt-sm-0 text-center">
             JESSIFER CAVIERES
           </h2>
@@ -46,25 +47,23 @@ function Profesionales() {
             “Los miedos que no enfrentas, se transforman en tus límites”.
           </p>
         </div>
-        <div className="col-12 col-sm-3 text-center">
-          <img
-            src={MariaImage}
-            width={"70%"}
-            className="rounded-circle mt-3 mb-3"
-          ></img>
-        </div>
-        <div className="col-12 col-sm-3">
+        <div className="col-12 col-sm-6">
+          <div className="text-center">
+            <img
+              src={RicardoImage}
+              width={"45%"}
+              className="rounded-circle mt-3 mb-3"
+            ></img>
+          </div>
           <h2 style={h1Us} className="h2 mb-3 mb-sm-3 mt-4 mt-sm-0 text-center">
-            MARIA TURCHAN
+            RICARDO BALLESTEROS
           </h2>
           <p style={pPr} className="p">
-            Profesional con más de tres años de experiencia en comunidades
-            terapéuticas de rehabilitación, trabajando desde el modelo cognitivo
-            - conductual con patologías duales. en el ámbito privado.{" "}
+            Entrenador profesional de deportes y actividad física
+            - Terapias deportivas{" "}
           </p>
           <p style={pPr} className="p">
-            “Son las decisiones, y no las condiciones, las que determinan
-            quienes somos en realidad." - Viktor Frankl.
+            “Algunas personas quieren que algo ocurra, otras sueñan con que pasará, y otras que hacen que suceda.” - Michael Jordan.
           </p>
         </div>
       </div>
